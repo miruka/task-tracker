@@ -95,10 +95,7 @@ const updateTask = {...taskToToggle,
     onAdd={()=> setShowAddTask(!showAddTask)} 
     showAdd={showAddTask}
     />
-  
-
-  <Route path="/about" component={About}/>
-   <Route path='/' exact render={(props) => (
+    <Route path='/' exact render={(props) => (
     <>
     { showAddTask && <AddTask onAdd={addTask} />}      
     {tasks.length > 0 ? (
@@ -114,6 +111,9 @@ const updateTask = {...taskToToggle,
 
     </>
   )} />
+
+  <Route path="/about" component={About}/>
+ 
    <Footer/>
   </div>
  

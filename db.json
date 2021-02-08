@@ -13,15 +13,9 @@
       "reminder": true
     },
     {
-      "text": "shopping",
-      "day": "Saturday 10th 9pm",
-      "reminder": true,
-      "id": 3
-    },
-    {
       "text": "Study Bible",
       "day": "Everyday 3am",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     }
   ]
